@@ -6,4 +6,4 @@ src/data/make_dataset.py is necessary to unpack from the archive and reform the 
 src/models/predict_condbert.py is necessary to predict with pre-trained CondBERT;  
 src/models/predict_paragedi.py is necessary to predict with pre-trained paraGeDi;  
 src/models/train_condbert.py is necessary to fine-tune and predict with pre-trained CondBERT;  
-src/evaluate/evaluate.py is necessary to evaluate all the models with cool metrics;  
+src/evaluate/evaluate.py is necessary to evaluate all the models with cool metrics.
