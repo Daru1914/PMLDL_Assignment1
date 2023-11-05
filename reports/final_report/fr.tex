@@ -83,7 +83,31 @@
 	Another necessary modification I made to ensure that the training works, was to modify the number of iterations of the logistic function from 1000 to 10000. An increase in vocabulary size also increased the complexity of logistic regression, and 1000 iterations where insufficient for it to converge. 
 	
 	\section{Evaluation}
-	While switching the colorization to HSL worked in removing the brown tint from the colorization, all the colorizations are now of a decidedly greenish tint, and many of them have artifacts, which are especially visible and egregious on results of model1 and model2. An increase in stride value has also led to a degradation of the quality of the image, so we do not intend to deviate from stride equal to 1 in the future, as the benefit from a faster convolution process are outweighed by the reduction in quality and accuracy. Filter number could be changed in the future, if more tests on filter size are conducted.
+	The evaluation is performed separately for pre-trained CondBERT model, for pre-trained paraGeDi model and for CondBERT model trained on the given dataset. To demonstrate differences between the models performing detoxification I made them translate the same sentences:
+	
+	\begin{figure}[H]
+		\includegraphics[scale=1]{../figures/cbtra.png}
+		\caption{Translations of pre-trained CondBERT}
+	\end{figure} 
+	
+	\begin{figure}[H]
+		\includegraphics[scale=1]{../figures/cb2tra.png}
+		\caption{Translations of fine-tuned CondBERT}
+	\end{figure} 
+	
+	\begin{figure}[H]
+		\includegraphics[scale=1]{../figures/parapa.png}
+		\caption{Translations of pre-trained paraGeDi}
+	\end{figure} 
+	
+	For further For evaluation purposes we will be using metrics from the aforementioned paper: \textbf{J}-score, \textbf{ACC}, which were implemented in the PMLDL\_Assignment1/detox/emnlp2021/metric/metric.py file. The comparison with the existing dataset will be conducted through the \textbf{ACC} metric, as we cannot afford to manually gather the data on the toxicity of reformulated sentences by the model from many different people. \\
+	
+	Unfortunately, calculation of the metrics as performed in that file takes an unexpectedly significant amount of time and due to time constraints their results will not be present in the current version of the report.
+	
+	\section{Results}
+	
+	The re-trained CondBERT has proven to be at least as effective at detoxification task as the pre-trained model, and considering that it has a larger vocabulary, it will perform better in general. A comparison between CondBERT and paraGeDi translations showcases that while paraGeDi is significantly better at generating human-like text due to its usage of GPT-2, it is worse at strictly identifying toxic words, as in the examples I have shown above it fails to understand that disgusting and disgusted are both not very nice words, and fails to recognize that monkey can be an insult.
+	
 	
 	\begin{thebibliography}{99}
 		\bibitem{main} Dale D. et al. Text detoxification using large pre-trained neural models //arXiv preprint arXiv:2109.08914. – 2021.

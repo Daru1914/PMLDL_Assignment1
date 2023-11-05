@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  5 NOV 2023 22:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  5 NOV 2023 23:24
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -414,21 +414,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
-[4] (fr.aux)
+<../figures/cbtra.png, id=57, 323.40825pt x 227.6505pt>
+File: ../figures/cbtra.png Graphic file (type png)
+<use ../figures/cbtra.png>
+Package pdftex.def Info: ../figures/cbtra.png  used on input line 89.
+(pdftex.def)             Requested size: 323.40744pt x 227.64993pt.
+[4]
+<../figures/cb2tra.png, id=64, 302.93175pt x 225.84375pt>
+File: ../figures/cb2tra.png Graphic file (type png)
+<use ../figures/cb2tra.png>
+Package pdftex.def Info: ../figures/cb2tra.png  used on input line 94.
+(pdftex.def)             Requested size: 302.931pt x 225.84319pt.
+<../figures/parapa.png, id=65, 301.42613pt x 275.52937pt>
+File: ../figures/parapa.png Graphic file (type png)
+<use ../figures/parapa.png>
+Package pdftex.def Info: ../figures/parapa.png  used on input line 99.
+(pdftex.def)             Requested size: 301.42538pt x 275.52869pt.
+ [5 <../figures/cbtra.png> <../figures/cb2tra.png>]
+Overfull \hbox (189.22575pt too wide) in paragraph at lines 103--104
+\OT1/cmr/m/n/10 men-tioned pa-per: \OT1/cmr/bx/n/10 J\OT1/cmr/m/n/10 -score, \O
+T1/cmr/bx/n/10 ACC\OT1/cmr/m/n/10 , which were im-ple-mented in the PMLDL[]Assi
+gnment1/detox/emnlp2021/metric/metric.py
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+[6 <../figures/parapa.png>] [7] (fr.aux)
 
 Package rerunfilecheck Warning: File `fr.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `fr.out':
-(rerunfilecheck)             Before: 3AD24ADAC73F10101AF456B64DB6F917;584
-(rerunfilecheck)             After:  B5EF4B57705697C465E6FDD3C14A7FB0;574.
+(rerunfilecheck)             Before: B5EF4B57705697C465E6FDD3C14A7FB0;574
+(rerunfilecheck)             After:  ACDA955CDBBC9430BAC5BD8F199D233F;652.
  ) 
 Here is how much of TeX's memory you used:
- 10167 strings out of 476360
- 159372 string characters out of 5788497
+ 10198 strings out of 476360
+ 160018 string characters out of 5788497
  1861993 words of memory out of 5000000
- 30428 multiletter control sequences out of 15000+600000
+ 30449 multiletter control sequences out of 15000+600000
  518648 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,7n,76p,777b,526s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -440,9 +468,9 @@ amsfonts/cm/cmbx12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1
 s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/user/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/user/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on fr.pdf (4 pages, 191116 bytes).
+Output written on fr.pdf (7 pages, 348462 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 124 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
